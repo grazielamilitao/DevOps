@@ -1,1 +1,28 @@
-# DevOps
+# <h1> Cultura DevOps </h1>
+
+<h5>Conceitos da cultura DevOps explicados de forma simples com as tecnologias que uso no dia a dia para consulta rápida.</h5>
+
+<img src="https://miro.medium.com/max/1400/1*O76HIkmAb_ackQ94hUHMPw.png"> </img>
+
+<h2>Etapas:</h2>
+<h5>
+<li>Plan:  Metodologias Ágeis/Jira;
+<br><li>Code: Codificação;
+<br><li>Build/Test: CI (Continuous Integration);
+<br><li>Release: Gitflow;
+<br><li>Deploy: CD (Continuous Delivery e Continuous Deployment, onde Continuous Delivery requer aprovação para Deploy e Continuous Deployment é automático);
+<br><li>Operate: Produção/Usuário Final.
+</h5>
+
+
+<h2>Conceitos:</h2>
+<h3>CI/CD:</h3> 
+<h5> Build, Test e Deploy da aplicação, sendo Docker para Build e Test, e Kubernetes para Deploy.
+<br><li>Pipeline - Passos:
+<br>1. Build da aplicação;
+<br>2. Teste da aplicação;
+<br>3. Build da imagem da aplicação com Docker;
+<br>4. Upload da imagem da aplicação com Docker;
+<br>5. Deploy da aplicação no Kubernetes com Helm.
+</h5>
+<img align="center" alt="Java" height="300" width="700" src="https://media.licdn.com/dms/image/C5112AQGN4vNFRhAZIA/article-cover_image-shrink_600_2000/0/1561044324742?e=2147483647&v=beta&t=6ZXnwkmoNcroRad2lHMtWNyt43vQnV2aL42xcfJpFZI"> </img>
