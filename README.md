@@ -25,8 +25,10 @@
 <br>4. Upload da imagem da aplicação com Docker;
 <br>5. Deploy da aplicação no Kubernetes com Helm.
 </h5>
-<img align="center" alt="Java" height="300" width="700" src="https://media.licdn.com/dms/image/C5112AQGN4vNFRhAZIA/article-cover_image-shrink_600_2000/0/1561044324742?e=2147483647&v=beta&t=6ZXnwkmoNcroRad2lHMtWNyt43vQnV2aL42xcfJpFZI"> </img>
+<img align="center" alt="Java" height="300" width="700" src="https://media.licdn.com/dms/image/C5112AQGN4vNFRhAZIA/article-cover_image-shrink_600_2000/0/1561044324742?e=2147483647&v=beta&t=6ZXnwkmoNcroRad2lHMtWNyt43vQnV2aL42xcfJpFZI"> </img> <br>
 
-<h3>Manifestos do Kubernetes:</h3> 
-<h5>Um arquivo de manifesto, ou especificação de pod, do Kubernetes compreende instruções em um arquivo yaml ou json que especificam como implantar um aplicativo em um cluster do Kubernetes. As instruções incluem informações sobre a implantação do Kubernetes, o serviço Kubernetes e outros objetos do Kubernetes a serem criados no cluster.
+
+<h3>Manifestos do Kubernetes:</h3>
+<h5>
+Um arquivo de manifesto, ou especificação de pod, do Kubernetes compreende instruções em um arquivo yaml ou json que especificam como implantar um aplicativo em um cluster do Kubernetes. As instruções incluem informações sobre a implantação do Kubernetes, o serviço Kubernetes e outros objetos do Kubernetes a serem criados no cluster.
 </h5>
