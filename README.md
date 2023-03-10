@@ -32,3 +32,9 @@
 <h5>
 Um arquivo de manifesto, ou especificação de pod, do Kubernetes compreende instruções em um arquivo yaml ou json que especificam como implantar um aplicativo em um cluster do Kubernetes. As instruções incluem informações sobre a implantação do Kubernetes, o serviço Kubernetes e outros objetos do Kubernetes a serem criados no cluster.
 </h5>
+
+<h3>Liveness e Readiness do Kubernetes:</h3>
+<h5>
+Healthcheck de liveness (aplicação saudável): Valida a infraestrutura do microserviço, cria-se uma rota de validação para verificar se todos os serviços que compoem a infraestrutura do microserviço estão funcionando adequadamente. <br>
+Healthcheck de readiness (negócio operacional): Valida a dependência de negócio, quando um microserviço depende de outro microserviço para funcionar cria-se uma rota de validação para verificar se o microserviço do qual se tem dependência está funcionando (em pé).
+</h5>
