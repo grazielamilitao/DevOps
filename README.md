@@ -39,3 +39,11 @@ Todo o ecossistema onde a aplicação é executada precisa receber informações
 <li>Healthcheck de liveness (aplicação saudável): Valida a infraestrutura do microserviço, cria-se uma rota de validação para verificar se todos os serviços que compoem a infraestrutura do microserviço estão funcionando adequadamente. Utilizado para pedir reposição ao orquestrador caso a infraestrutura da aplicação esteja comprometida.<br>
 <li>Healthcheck de readiness (negócio operacional): Valida a dependência de negócio, quando um microserviço depende de outro microserviço para funcionar cria-se uma rota de validação para verificar se o microserviço do qual se tem dependência está funcionando (em pé). Utilizado para o orquestrador saber quando abrir e fechar o tráfego de requisições, sendo que esse tráfego é aberto se o negócio estiver operacional e fechado caso não esteja.
 </h5>
+
+<h2>Transformação Cloud Native: </h2>
+<h5> Desenvolver/tornar aplicações compatíveis com conceitos cloud native, através de processos e mecanismos integrados ao orquestrador e à ferramentas de observabilidade.</h5> <br> 
+</h3> Cloud computing x Cloud Native  </h3>
+<h5> Cloud computing é a entrega sob demanda de infraestrutura (hardware/servidores), armazenamento, bancos de dados e todos os tipos de serviços de aplicativos via Internet. Freqüentemente, eles são fornecidos por uma plataforma de serviços em nuvem como Amazon Web Services, Google Cloud ou Microsoft Azure, com preços medidos para que você pague apenas pelos recursos que realmente consome. <br>
+Cloud Native é uma arquitetura para montar todos os componentes baseados em nuvem de uma forma otimizada para o ambiente de nuvem. Não é sobre os servidores, mas os serviços. Portanto, Cloud Native também é um destino organizacional: o objetivo atual para empresas que procuram modernizar sua infraestrutura e processo, e até cultura organizacional, escolhendo cuidadosamente as tecnologias de nuvem que melhor se adaptam ao seu caso específico.
+<br> Referência: Livro - Cloud Native Transformation
+</h5>
