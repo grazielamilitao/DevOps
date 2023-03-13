@@ -19,8 +19,6 @@
 <br><li>Operate: Produção/Usuário Final.
 </h5>
 
-
-<h2>Conceitos:</h2>
 <h3>CI/CD:</h3> 
 <h5> Build, Test e Deploy da aplicação, sendo Docker para Build e Test, e Kubernetes para Deploy.
 <br><li>Pipeline - Passos:
