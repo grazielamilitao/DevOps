@@ -1,4 +1,4 @@
-# <h1> Cultura DevOps </h1>
+# <h1> DevOps </h1>
 
 <h5>DevOps é a automação dos processos de desenvolvimento e infraestrutura. DevSecOps é a prática de integrar testes de segurança em todas as etapas do processo de desenvolvimento de software, denominada assim quando a segurança é prioridade. A cultura DevOps utiliza várias tecnologia e ferramentas que ajudam a operar e desenvolver aplicativos de modo rápido e confiável. DevSecOps traz uma transformação cultural que torna a segurança uma responsabilidade compartilhada por todos que estão construindo o software. <br> </h5>
 <h5>Em uma cultura DevOps, experimentamos, encontramos problemas, avisamos a tempo e ajustamos, logo, crie-se uma cultura de experimentação, colaboração e autoatendimento, construindo times autossuficientes e autônomos. Com isso, trabalhamos para errar rápido e corrigir rápido.</h5>
