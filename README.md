@@ -58,4 +58,10 @@ Cloud Native é uma arquitetura para montar todos os componentes baseados em nuv
 <br><li>FROM -> instala uma ferramenta fundamental para o ambiente rodar. Ex.: uma aplicação java precisa do jdk instalado, logo o comando é: "FROM openujdk".
 <br><li>COPY -> copiar um arquivo do diretório corrente para o container no diretório especificado. Ex.: COPY aula.txt /app/aula.txt, aqui está copiando o .txt para o diretório ./app/ a partir do diretório corrente do container para uma arquivo chamado aula.txt.
 <br><li>ADD -> mesma coisa do COPY, porém o ADD é capaz de de baixar um arquivo diretamente de uma url, e também pode descompactar um arquivo dentro do container, isso que diferencia o ADD do COPY. Ex.: ADD aula.tar.gz /app/aula/, aqui descompacta esse arquivo no container dentro do diretório especificado.
- </h5>
+<br><li>RUN -> executa algum comando dentro do container. Ex.: RUN mkdir /prometheus, aqui criará a pasta "prometheus" no diretório presente container.
+<br><li>CMD -> Comando que será executado após o container ser inicializado. Ex.: CMD["node start"].
+<br><li>ENTRYPOINT -> mesmo que CMD, porém quando os dois estão declarados, o CMD entra como um parâmetro do ENTRYPOINT. Ex.: CMD["./dist/index.js"] ENTRYPOINT["node"], logo, quando o node for execultado, ele será complementado com ./dist/index.js, assim: "node ./dist/index.js".
+<br><li>WORKDIR -> define o diretório raiz do container. Ex.: WORKDIR /src, quando o container inicializar, o diretório raiz dele será o /src.
+<br><li>ENV -> cria uma variável de ambiente. Ex.: ENV POSTGRES-DB=EXAMPLEDB. Para usar ela no container, precisa copiar com o COPY, "COPY $POSTGRES-DB /src"
+<br><li>EXPOSE -> define um parta de acesso para o container. Ex.: EXPOSE 8080.
+</h5>
