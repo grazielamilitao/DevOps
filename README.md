@@ -50,3 +50,12 @@ Todo o ecossistema onde a aplicação é executada precisa receber informações
 Cloud Native é uma arquitetura para montar todos os componentes baseados em nuvem de uma forma otimizada para o ambiente de nuvem. Não é sobre os servidores, mas os serviços. Portanto, Cloud Native também é um destino organizacional: o objetivo atual para empresas que procuram modernizar sua infraestrutura e processo, e até cultura organizacional, escolhendo cuidadosamente as tecnologias de nuvem que melhor se adaptam ao seu caso específico.
 <br> Referência: Livro - Cloud Native Transformation
 </h5>
+
+
+<h2>Dockerfile: </h2>
+<h4>Principais comandos: </h4>
+<h5>
+<br><li>FROM -> instala uma ferramenta fundamental para o ambiente rodar. Ex.: uma aplicação java precisa do jdk instalado, logo o comando é: "FROM openujdk".
+<br><li>COPY -> copiar um arquivo do diretório corrente para o container no diretório especificado. Ex.: COPY aula.txt /app/aula.txt, aqui está copiando o .txt para o diretório ./app/ a partir do diretório corrente do container para uma arquivo chamado aula.txt.
+<br><li>ADD -> mesma coisa do COPY, porém o ADD é capaz de de baixar um arquivo diretamente de uma url, e também pode descompactar um arquivo dentro do container, isso que diferencia o ADD do COPY. Ex.: ADD aula.tar.gz /app/aula/, aqui descompacta esse arquivo no container dentro do diretório especificado.
+ </h5>
