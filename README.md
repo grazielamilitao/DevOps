@@ -64,4 +64,5 @@ Cloud Native é uma arquitetura para montar todos os componentes baseados em nuv
 <br><li>WORKDIR -> define o diretório raiz do container. Ex.: WORKDIR /src, quando o container inicializar, o diretório raiz dele será o /src.
 <br><li>ENV -> cria uma variável de ambiente. Ex.: ENV POSTGRES-DB=EXAMPLEDB. Para usar ela no container, precisa copiar com o COPY, "COPY $POSTGRES-DB /src"
 <br><li>EXPOSE -> define um parta de acesso para o container. Ex.: EXPOSE 8080.
+<br>Para rodar utilize: docker build, porém isso deixará o nome da imagem como <none>. Para adicionar um nome a imagem que está sendo criada: docker build -t nome_aplicação ., o "." é para procurar o arquivo dockerfile no diretório atual.
 </h5>
